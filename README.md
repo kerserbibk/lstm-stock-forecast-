@@ -5,14 +5,14 @@ This project uses a Long Short-Term Memory (LSTM) neural network implemented in 
 ## 🧠 Model Overview
 
 - Framework: **PyTorch**
-- Model: **LSTM** with 2 layers
+- Model: **LSTM** with 2 layers+Multi Head Attention Layer
 - Task: **Classification and adapting trends** (Up = 1, Down = 0)
 - Loss: **MSELoss**
 - Output: Class label for next day's price direction
 
 ## 🔢 Dataset
 
-- **Source:** World Stock Prices Dataset from Kaggle
+- **Source:** World Stock Prices Dataset from Kaggle till 5May
 - **Feature used:** Closing prices
 - **Preprocessing:** MinMaxScaler for normalization
 - **Sequence length:** 30-45 previous days used to predict the next
